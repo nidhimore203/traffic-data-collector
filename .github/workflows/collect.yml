@@ -2,7 +2,7 @@ name: collect-traffic-data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes (GitHub may delay runs by a few mins)
+    - cron: "*/15 * * * *"   # every 10 minutes (GitHub may delay runs by a few mins)
   workflow_dispatch:          # lets you also run it manually from the Actions tab
 
 permissions:
